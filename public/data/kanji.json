@@ -1,0 +1,993 @@
+{
+    "日": {
+        "svg": "065e5.svg",
+        "meaning": "sun, day",
+        "readings": {
+            "onyomi": [
+                "ニチ",
+                "ジツ"
+            ],
+            "kunyomi": [
+                "ひ",
+                "か"
+            ]
+        },
+        "phraseExamples": [
+            "日曜日 (Sunday)",
+            "日本 (Japan)"
+        ]
+    },
+    "月": {
+        "svg": "06708.svg",
+        "meaning": "moon, month",
+        "readings": {
+            "onyomi": [
+                "ゲツ",
+                "ガツ"
+            ],
+            "kunyomi": [
+                "つき"
+            ]
+        },
+        "phraseExamples": [
+            "月曜日 (Monday)",
+            "今月 (this month)"
+        ]
+    },
+    "山": {
+        "svg": "05c71.svg",
+        "meaning": "mountain",
+        "readings": {
+            "onyomi": [
+                "サン",
+                "ザン"
+            ],
+            "kunyomi": [
+                "やま"
+            ]
+        },
+        "phraseExamples": [
+            "富士山 (Mt. Fuji)",
+            "山道 (mountain path)"
+        ]
+    },
+    "川": {
+        "svg": "05ddd.svg",
+        "meaning": "river",
+        "readings": {
+            "onyomi": [
+                "セン"
+            ],
+            "kunyomi": [
+                "かわ"
+            ]
+        },
+        "phraseExamples": [
+            "川辺 (riverside)",
+            "川口 (river mouth)"
+        ]
+    },
+    "田": {
+        "svg": "07530.svg",
+        "meaning": "rice field",
+        "readings": {
+            "onyomi": [
+                "デン"
+            ],
+            "kunyomi": [
+                "た"
+            ]
+        },
+        "phraseExamples": [
+            "田園 (countryside)",
+            "田中 (Tanaka, a name)"
+        ]
+    },
+    "人": {
+        "svg": "04eba.svg",
+        "meaning": "person",
+        "readings": {
+            "onyomi": [
+                "ジン",
+                "ニン"
+            ],
+            "kunyomi": [
+                "ひと"
+            ]
+        },
+        "phraseExamples": [
+            "日本人 (Japanese person)",
+            "人口 (population)"
+        ]
+    },
+    "口": {
+        "svg": "053e3.svg",
+        "meaning": "mouth",
+        "readings": {
+            "onyomi": [
+                "コウ",
+                "ク"
+            ],
+            "kunyomi": [
+                "くち"
+            ]
+        },
+        "phraseExamples": [
+            "口語 (spoken language)",
+            "出口 (exit)"
+        ]
+    },
+    "木": {
+        "svg": "06754.svg",
+        "meaning": "tree, wood",
+        "readings": {
+            "onyomi": ["モク", "ボク"],
+            "kunyomi": ["き", "こ"]
+        },
+        "phraseExamples": ["木曜日 (Thursday)", "木陰 (shade of a tree)"]
+    },
+    "水": {
+        "svg": "06c34.svg",
+        "meaning": "water",
+        "readings": {
+            "onyomi": ["スイ"],
+            "kunyomi": ["みず"]
+        },
+        "phraseExamples": ["水曜日 (Wednesday)", "水道 (water supply)"]
+    },
+    "火": {
+        "svg": "070ad.svg",
+        "meaning": "fire",
+        "readings": {
+            "onyomi": ["カ"],
+            "kunyomi": ["ひ"]
+        },
+        "phraseExamples": ["火曜日 (Tuesday)", "火山 (volcano)"]
+    },
+    "金": {
+        "svg": "091d1.svg",
+        "meaning": "gold, money",
+        "readings": {
+            "onyomi": ["キン", "コン"],
+            "kunyomi": ["かね", "かな"]
+        },
+        "phraseExamples": ["金曜日 (Friday)", "金持ち (rich person)"]
+    },
+    "土": {
+        "svg": "0571f.svg",
+        "meaning": "earth, soil",
+        "readings": {
+            "onyomi": ["ド", "ト"],
+            "kunyomi": ["つち"]
+        },
+        "phraseExamples": ["土曜日 (Saturday)", "土木 (civil engineering)"]
+    },
+    "空": {
+        "svg": "07a7a.svg",
+        "meaning": "sky, empty",
+        "readings": {
+            "onyomi": ["クウ"],
+            "kunyomi": ["そら", "あ", "から"]
+        },
+        "phraseExamples": ["空港 (airport)", "青空 (blue sky)"]
+    },
+    "雨": {
+        "svg": "096e8.svg",
+        "meaning": "rain",
+        "readings": {
+            "onyomi": ["ウ"],
+            "kunyomi": ["あめ", "あま"]
+        },
+        "phraseExamples": ["大雨 (heavy rain)", "雨雲 (rain cloud)"]
+    },
+    "小": {
+        "svg": "05c0f.svg",
+        "meaning": "small",
+        "readings": {
+            "onyomi": ["ショウ"],
+            "kunyomi": ["ちい", "こ", "お"]
+        },
+        "phraseExamples": ["小学校 (elementary school)", "小さい (small)"]
+    },
+    "大": {
+        "svg": "05927.svg",
+        "meaning": "big, large",
+        "readings": {
+            "onyomi": ["ダイ", "タイ"],
+            "kunyomi": ["おお"]
+        },
+        "phraseExamples": ["大学 (university)", "大きい (big)"]
+    },
+    "中": {
+        "svg": "04e2d.svg",
+        "meaning": "middle, inside",
+        "readings": {
+            "onyomi": ["チュウ"],
+            "kunyomi": ["なか"]
+        },
+        "phraseExamples": ["中国 (China)", "中学校 (middle school)"]
+    },
+    "上": {
+        "svg": "04e0a.svg",
+        "meaning": "up, above",
+        "readings": {
+            "onyomi": ["ジョウ", "ショウ"],
+            "kunyomi": ["うえ", "あ", "のぼ"]
+        },
+        "phraseExamples": ["上手 (skilled)", "上がる (to rise)"]
+    },
+    "下": {
+        "svg": "04e0b.svg",
+        "meaning": "down, below",
+        "readings": {
+            "onyomi": ["カ", "ゲ"],
+            "kunyomi": ["した", "さ", "くだ"]
+        },
+        "phraseExamples": ["下手 (unskilled)", "地下鉄 (subway)"]
+    },
+    "左": {
+        "svg": "05de6.svg",
+        "meaning": "left",
+        "readings": {
+            "onyomi": ["サ"],
+            "kunyomi": ["ひだり"]
+        },
+        "phraseExamples": ["左手 (left hand)", "左側 (left side)"]
+    },
+    "右": {
+        "svg": "053f3.svg",
+        "meaning": "right",
+        "readings": {
+            "onyomi": ["ウ", "ユウ"],
+            "kunyomi": ["みぎ"]
+        },
+        "phraseExamples": ["右手 (right hand)", "右側 (right side)"]
+    },
+    "名": {
+        "svg": "0546a.svg",
+        "meaning": "name",
+        "readings": {
+            "onyomi": ["メイ", "ミョウ"],
+            "kunyomi": ["な"]
+        },
+        "phraseExamples": ["名前 (name)", "有名 (famous)"]
+    },
+    "先": {
+        "svg": "051e1.svg",
+        "meaning": "before, ahead",
+        "readings": {
+            "onyomi": ["セン"],
+            "kunyomi": ["さき"]
+        },
+        "phraseExamples": ["先生 (teacher)", "先週 (last week)"]
+    },
+    "生": {
+        "svg": "07531.svg",
+        "meaning": "life, birth",
+        "readings": {
+            "onyomi": ["セイ", "ショウ"],
+            "kunyomi": ["い", "う", "なま"]
+        },
+        "phraseExamples": ["学生 (student)", "生きる (to live)"]
+    },
+    "学": {
+        "svg": "05b66.svg",
+        "meaning": "study, learning",
+        "readings": {
+            "onyomi": ["ガク"],
+            "kunyomi": ["まな"]
+        },
+        "phraseExamples": ["学校 (school)", "学ぶ (to learn)"]
+    },
+    "校": {
+        "svg": "06821.svg",
+        "meaning": "school",
+        "readings": {
+            "onyomi": ["コウ"],
+            "kunyomi": []
+        },
+        "phraseExamples": ["高校 (high school)", "小学校 (elementary school)"]
+    },
+    "時": {
+        "svg": "066f4.svg",
+        "meaning": "time, hour",
+        "readings": {
+            "onyomi": ["ジ"],
+            "kunyomi": ["とき"]
+        },
+        "phraseExamples": ["時間 (time)", "時々 (sometimes)"]
+    },
+    "年": {
+        "svg": "05e74.svg",
+        "meaning": "year",
+        "readings": {
+            "onyomi": ["ネン"],
+            "kunyomi": ["とし"]
+        },
+        "phraseExamples": ["今年 (this year)", "来年 (next year)"]
+    },
+    "何": {
+        "svg": "04f55.svg",
+        "meaning": "what",
+        "readings": {
+            "onyomi": ["カ"],
+            "kunyomi": ["なに", "なん"]
+        },
+        "phraseExamples": ["何時 (what time)", "何人 (how many people)"]
+    },
+    "男": {
+        "svg": "07537.svg",
+        "meaning": "man, male",
+        "readings": {
+            "onyomi": ["ダン", "ナン"],
+            "kunyomi": ["おとこ"]
+        },
+        "phraseExamples": ["男性 (male)", "男の子 (boy)"]
+    },
+    "女": {
+        "svg": "0597d.svg",
+        "meaning": "woman, female",
+        "readings": {
+            "onyomi": ["ジョ", "ニョ"],
+            "kunyomi": ["おんな", "め"]
+        },
+        "phraseExamples": ["女性 (female)", "女の子 (girl)"]
+    },
+    "子": {
+        "svg": "05b50.svg",
+        "meaning": "child",
+        "readings": {
+            "onyomi": ["シ", "ス"],
+            "kunyomi": ["こ"]
+        },
+        "phraseExamples": ["子供 (child)", "電子 (electron)"]
+    },
+    "車": {
+        "svg": "08eca.svg",
+        "meaning": "car, vehicle",
+        "readings": {
+            "onyomi": ["シャ"],
+            "kunyomi": ["くるま"]
+        },
+        "phraseExamples": ["電車 (train)", "車道 (roadway)"]
+    },
+    "行": {
+        "svg": "08d70.svg",
+        "meaning": "go, act",
+        "readings": {
+            "onyomi": ["コウ", "ギョウ"],
+            "kunyomi": ["い", "ゆ", "おこな"]
+        },
+        "phraseExamples": ["行く (to go)", "旅行 (travel)"]
+    },
+    "来": {
+        "svg": "04f86.svg",
+        "meaning": "come, next",
+        "readings": {
+            "onyomi": ["ライ"],
+            "kunyomi": ["く", "きた"]
+        },
+        "phraseExamples": ["来る (to come)", "来週 (next week)"]
+    },
+    "見": {
+        "svg": "0898b.svg",
+        "meaning": "see, look",
+        "readings": {
+            "onyomi": ["ケン"],
+            "kunyomi": ["み"]
+        },
+        "phraseExamples": ["見る (to see)", "意見 (opinion)"]
+    },
+    "言": {
+        "svg": "08a00.svg",
+        "meaning": "say, word",
+        "readings": {
+            "onyomi": ["ゲン", "ゴン"],
+            "kunyomi": ["い", "こと"]
+        },
+        "phraseExamples": ["言う (to say)", "言葉 (word)"]
+    },
+    "話": {
+        "svg": "08a71.svg",
+        "meaning": "talk, story",
+        "readings": {
+            "onyomi": ["ワ"],
+            "kunyomi": ["はな", "はなし"]
+        },
+        "phraseExamples": ["話す (to speak)", "会話 (conversation)"]
+    },
+    "聞": {
+        "svg": "080fd.svg",
+        "meaning": "hear, listen",
+        "readings": {
+            "onyomi": ["ブン", "モン"],
+            "kunyomi": ["き"]
+        },
+        "phraseExamples": ["聞く (to listen)", "新聞 (newspaper)"]
+    },
+    "食": {
+        "svg": "098df.svg",
+        "meaning": "eat",
+        "readings": {
+            "onyomi": ["ショク"],
+            "kunyomi": ["た"]
+        },
+        "phraseExamples": ["食べる (to eat)", "食事 (meal)"]
+    },
+    "飲": {
+        "svg": "098f2.svg",
+        "meaning": "drink",
+        "readings": {
+            "onyomi": ["イン"],
+            "kunyomi": ["の"]
+        },
+        "phraseExamples": ["飲む (to drink)", "飲み物 (beverage)"]
+    },
+    "買": {
+        "svg": "08cb7.svg",
+        "meaning": "buy",
+        "readings": {
+            "onyomi": ["バイ"],
+            "kunyomi": ["か"]
+        },
+        "phraseExamples": ["買う (to buy)", "買い物 (shopping)"]
+    },
+    "売": {
+        "svg": "058f2.svg",
+        "meaning": "sell",
+        "readings": {
+            "onyomi": ["バイ"],
+            "kunyomi": ["う"]
+        },
+        "phraseExamples": ["売る (to sell)", "売店 (kiosk)"]
+    },
+    "店": {
+        "svg": "05e97.svg",
+        "meaning": "shop, store",
+        "readings": {
+            "onyomi": ["テン"],
+            "kunyomi": ["みせ"]
+        },
+        "phraseExamples": ["店員 (store clerk)", "本店 (main store)"]
+    },
+    "道": {
+        "svg": "090ce.svg",
+        "meaning": "road, way",
+        "readings": {
+            "onyomi": ["ドウ"],
+            "kunyomi": ["みち"]
+        },
+        "phraseExamples": ["道 (road)", "北海道 (Hokkaido)"]
+    },
+    "国": {
+        "svg": "0596f.svg",
+        "meaning": "country",
+        "readings": {
+            "onyomi": ["コク"],
+            "kunyomi": ["くに"]
+        },
+        "phraseExamples": ["国 (country)", "外国 (foreign country)"]
+    },
+    "旅": {
+        "svg": "065c5.svg",
+        "meaning": "travel",
+        "readings": {
+            "onyomi": ["リョ"],
+            "kunyomi": ["たび"]
+        },
+        "phraseExamples": ["旅行 (travel)", "旅館 (Japanese inn)"]
+    },
+    "家": {
+        "svg": "05bb6.svg",
+        "meaning": "house, home",
+        "readings": {
+            "onyomi": ["カ", "ケ"],
+            "kunyomi": ["いえ", "うち"]
+        },
+        "phraseExamples": ["家族 (family)", "家 (house)"]
+    },
+    "父": {
+        "svg": "0726f.svg",
+        "meaning": "father",
+        "readings": {
+            "onyomi": ["フ"],
+            "kunyomi": ["ちち"]
+        },
+        "phraseExamples": ["父親 (father)", "お父さん (father, polite)"]
+    },
+    "母": {
+        "svg": "06bcd.svg",
+        "meaning": "mother",
+        "readings": {
+            "onyomi": ["ボ"],
+            "kunyomi": ["はは"]
+        },
+        "phraseExamples": ["母親 (mother)", "お母さん (mother, polite)"]
+    },
+    "友": {
+        "svg": "053cb.svg",
+        "meaning": "friend",
+        "readings": {
+            "onyomi": ["ユウ"],
+            "kunyomi": ["とも"]
+        },
+        "phraseExamples": ["友達 (friend)", "友情 (friendship)"]
+    },
+    "分": {
+        "svg": "05241.svg",
+        "meaning": "minute, understand",
+        "readings": {
+            "onyomi": ["ブン", "フン"],
+            "kunyomi": ["わ"]
+        },
+        "phraseExamples": ["五分 (five minutes)", "分かる (to understand)"]
+    },
+    "高": {
+        "svg": "09ad8.svg",
+        "meaning": "high, tall",
+        "readings": {
+            "onyomi": ["コウ"],
+            "kunyomi": ["たか"]
+        },
+        "phraseExamples": ["高校 (high school)", "高い (expensive, tall)"]
+    },
+    "安": {
+        "svg": "05b89.svg",
+        "meaning": "cheap, safe",
+        "readings": {
+            "onyomi": ["アン"],
+            "kunyomi": ["やす"]
+        },
+        "phraseExamples": ["安心 (peace of mind)", "安い (cheap)"]
+    },
+    "新": {
+        "svg": "065b0.svg",
+        "meaning": "new",
+        "readings": {
+            "onyomi": ["シン"],
+            "kunyomi": ["あたら", "あら"]
+        },
+        "phraseExamples": ["新聞 (newspaper)", "新しい (new)"]
+    },
+    "古": {
+        "svg": "053e4.svg",
+        "meaning": "old",
+        "readings": {
+            "onyomi": ["コ"],
+            "kunyomi": ["ふる"]
+        },
+        "phraseExamples": ["古い (old)", "中古 (secondhand)"]
+    },
+    "歩": {
+        "svg": "06b69.svg",
+        "meaning": "walk",
+        "readings": {
+            "onyomi": ["ホ", "ブ"],
+            "kunyomi": ["ある", "あゆ"]
+        },
+        "phraseExamples": ["歩く (to walk)", "散歩 (a walk, stroll)"]
+    },
+    "海": {
+        "svg": "06d77.svg",
+        "meaning": "sea, ocean",
+        "readings": {
+            "onyomi": ["カイ"],
+            "kunyomi": ["うみ"]
+        },
+        "phraseExamples": ["海 (sea)", "海外 (overseas)"]
+    },
+    "花": {
+        "svg": "08287.svg",
+        "meaning": "flower",
+        "readings": {
+            "onyomi": ["カ"],
+            "kunyomi": ["はな"]
+        },
+        "phraseExamples": ["花 (flower)", "花火 (fireworks)"]
+    },
+    "町": {
+        "svg": "07540.svg",
+        "meaning": "town",
+        "readings": {
+            "onyomi": ["チョウ"],
+            "kunyomi": ["まち"]
+        },
+        "phraseExamples": ["町 (town)", "町内 (neighborhood)"]
+    },
+    "森": {
+        "svg": "0684d.svg",
+        "meaning": "forest",
+        "readings": {
+            "onyomi": ["シン"],
+            "kunyomi": ["もり"]
+        },
+        "phraseExamples": ["森 (forest)", "森林 (woods, forest)"]
+    },
+    "体": {
+        "svg": "04f53.svg",
+        "meaning": "body",
+        "readings": {
+            "onyomi": ["タイ"],
+            "kunyomi": ["からだ"]
+        },
+        "phraseExamples": ["体 (body)", "体力 (physical strength)"]
+    },
+    "駅": {
+        "svg": "099c5.svg",
+        "meaning": "station",
+        "readings": {
+            "onyomi": ["エキ"],
+            "kunyomi": []
+        },
+        "phraseExamples": ["駅 (station)", "駅前 (in front of the station)"]
+    },
+    "風": {
+        "svg": "098a8.svg",
+        "meaning": "wind, style",
+        "readings": {
+            "onyomi": ["フウ", "フ"],
+            "kunyomi": ["かぜ", "かざ"]
+        },
+        "phraseExamples": ["風 (wind)", "台風 (typhoon)"]
+    },
+    "村": {
+        "svg": "067da.svg",
+        "meaning": "village",
+        "readings": {
+            "onyomi": ["ソン"],
+            "kunyomi": ["むら"]
+        },
+        "phraseExamples": ["村 (village)", "村人 (villager)"]
+    },
+    "北": {
+        "svg": "053f3.svg",
+        "meaning": "north",
+        "readings": {
+            "onyomi": ["ホク"],
+            "kunyomi": ["きた"]
+        },
+        "phraseExamples": ["北 (north)", "北風 (north wind)"]
+    },
+    "南": {
+        "svg": "053f0.svg",
+        "meaning": "south",
+        "readings": {
+            "onyomi": ["ナン"],
+            "kunyomi": ["みなみ"]
+        },
+        "phraseExamples": ["南 (south)", "南国 (southern country)"]
+    },
+    "東": {
+        "svg": "06845.svg",
+        "meaning": "east",
+        "readings": {
+            "onyomi": ["トウ"],
+            "kunyomi": ["ひがし"]
+        },
+        "phraseExamples": ["東 (east)", "東京 (Tokyo)"]
+    },
+    "西": {
+        "svg": "08934.svg",
+        "meaning": "west",
+        "readings": {
+            "onyomi": ["セイ", "サイ"],
+            "kunyomi": ["にし"]
+        },
+        "phraseExamples": ["西 (west)", "関西 (Kansai)"]
+    },
+    "春": {
+        "svg": "0664b.svg",
+        "meaning": "spring (season)",
+        "readings": {
+            "onyomi": ["シュン"],
+            "kunyomi": ["はる"]
+        },
+        "phraseExamples": ["春 (spring)", "春休み (spring break)"]
+    },
+    "夏": {
+        "svg": "05946.svg",
+        "meaning": "summer",
+        "readings": {
+            "onyomi": ["カ"],
+            "kunyomi": ["なつ"]
+        },
+        "phraseExamples": ["夏 (summer)", "夏休み (summer vacation)"]
+    },
+    "秋": {
+        "svg": "079cb.svg",
+        "meaning": "autumn",
+        "readings": {
+            "onyomi": ["シュウ"],
+            "kunyomi": ["あき"]
+        },
+        "phraseExamples": ["秋 (autumn)", "秋風 (autumn breeze)"]
+    },
+    "冬": {
+        "svg": "051ac.svg",
+        "meaning": "winter",
+        "readings": {
+            "onyomi": ["トウ"],
+            "kunyomi": ["ふゆ"]
+        },
+        "phraseExamples": ["冬 (winter)", "冬休み (winter holiday)"]
+    },
+    "明": {
+        "svg": "06665.svg",
+        "meaning": "bright, clear",
+        "readings": {
+            "onyomi": ["メイ", "ミョウ"],
+            "kunyomi": ["あか", "あ"]
+        },
+        "phraseExamples": ["明るい (bright)", "明日 (tomorrow)"]
+    },
+    "夜": {
+        "svg": "0592a.svg",
+        "meaning": "night",
+        "readings": {
+            "onyomi": ["ヤ"],
+            "kunyomi": ["よる", "よ"]
+        },
+        "phraseExamples": ["夜 (night)", "今夜 (tonight)"]
+    },
+    "朝": {
+        "svg": "06767.svg",
+        "meaning": "morning",
+        "readings": {
+            "onyomi": ["チョウ"],
+            "kunyomi": ["あさ"]
+        },
+        "phraseExamples": ["朝 (morning)", "朝食 (breakfast)"]
+    },
+    "週": {
+        "svg": "090f2.svg",
+        "meaning": "week",
+        "readings": {
+            "onyomi": ["シュウ"],
+            "kunyomi": []
+        },
+        "phraseExamples": ["週末 (weekend)", "来週 (next week)"]
+    },
+    "今": {
+        "svg": "04eca.svg",
+        "meaning": "now, present",
+        "readings": {
+            "onyomi": ["コン"],
+            "kunyomi": ["いま"]
+        },
+        "phraseExamples": ["今 (now)", "今日 (today)"]
+    },
+    "早": {
+        "svg": "065e9.svg",
+        "meaning": "early, fast",
+        "readings": {
+            "onyomi": ["ソウ", "サッ"],
+            "kunyomi": ["はや"]
+        },
+        "phraseExamples": ["早い (early)", "早朝 (early morning)"]
+    },
+    "多": {
+        "svg": "05927.svg",
+        "meaning": "many, much",
+        "readings": {
+            "onyomi": ["タ"],
+            "kunyomi": ["おお"]
+        },
+        "phraseExamples": ["多い (many)", "多少 (a little)"]
+    },
+    "少": {
+        "svg": "05c11.svg",
+        "meaning": "few, little",
+        "readings": {
+            "onyomi": ["ショウ"],
+            "kunyomi": ["すこ", "すく"]
+        },
+        "phraseExamples": ["少ない (few)", "少々 (just a little)"]
+    },
+    "白": {
+        "svg": "076ee.svg",
+        "meaning": "white",
+        "readings": {
+            "onyomi": ["ハク"],
+            "kunyomi": ["しろ", "しら"]
+        },
+        "phraseExamples": ["白い (white)", "白鳥 (swan)"]
+    },
+    "黒": {
+        "svg": "09ed2.svg",
+        "meaning": "black",
+        "readings": {
+            "onyomi": ["コク"],
+            "kunyomi": ["くろ"]
+        },
+        "phraseExamples": ["黒い (black)", "黒板 (blackboard)"]
+    },
+    "青": {
+        "svg": "097d3.svg",
+        "meaning": "blue",
+        "readings": {
+            "onyomi": ["セイ", "ショウ"],
+            "kunyomi": ["あお"]
+        },
+        "phraseExamples": ["青い (blue)", "青年 (youth)"]
+    },
+    "赤": {
+        "svg": "08d64.svg",
+        "meaning": "red",
+        "readings": {
+            "onyomi": ["セキ", "シャク"],
+            "kunyomi": ["あか"]
+        },
+        "phraseExamples": ["赤い (red)", "赤道 (equator)"]
+    },
+    "黄": {
+        "svg": "09ec4.svg",
+        "meaning": "yellow",
+        "readings": {
+            "onyomi": ["コウ", "オウ"],
+            "kunyomi": ["き"]
+        },
+        "phraseExamples": ["黄色 (yellow)", "黄身 (egg yolk)"]
+    },
+    "元": {
+        "svg": "05178.svg",
+        "meaning": "origin, source",
+        "readings": {
+            "onyomi": ["ゲン", "ガン"],
+            "kunyomi": ["もと"]
+        },
+        "phraseExamples": ["元気 (healthy)", "元日 (New Year's Day)"]
+    },
+    "気": {
+        "svg": "06c17.svg",
+        "meaning": "spirit, energy",
+        "readings": {
+            "onyomi": ["キ", "ケ"],
+            "kunyomi": []
+        },
+        "phraseExamples": ["元気 (healthy)", "天気 (weather)"]
+    },
+    "天": {
+        "svg": "0590f.svg",
+        "meaning": "heaven, sky",
+        "readings": {
+            "onyomi": ["テン"],
+            "kunyomi": ["あま"]
+        },
+        "phraseExamples": ["天気 (weather)", "天国 (heaven)"]
+    },
+    "雪": {
+        "svg": "096ea.svg",
+        "meaning": "snow",
+        "readings": {
+            "onyomi": ["セツ"],
+            "kunyomi": ["ゆき"]
+        },
+        "phraseExamples": ["雪 (snow)", "雪山 (snowy mountain)"]
+    },
+    "魚": {
+        "svg": "09b5a.svg",
+        "meaning": "fish",
+        "readings": {
+            "onyomi": ["ギョ"],
+            "kunyomi": ["さかな", "うお"]
+        },
+        "phraseExamples": ["魚 (fish)", "金魚 (goldfish)"]
+    },
+    "鳥": {
+        "svg": "09ce5.svg",
+        "meaning": "bird",
+        "readings": {
+            "onyomi": ["チョウ"],
+            "kunyomi": ["とり"]
+        },
+        "phraseExamples": ["鳥 (bird)", "白鳥 (swan)"]
+    },
+    "犬": {
+        "svg": "072ac.svg",
+        "meaning": "dog",
+        "readings": {
+            "onyomi": ["ケン"],
+            "kunyomi": ["いぬ"]
+        },
+        "phraseExamples": ["犬 (dog)", "番犬 (guard dog)"]
+    },
+    "猫": {
+        "svg": "08c93.svg",
+        "meaning": "cat",
+        "readings": {
+            "onyomi": ["ビョウ"],
+            "kunyomi": ["ねこ"]
+        },
+        "phraseExamples": ["猫 (cat)", "黒猫 (black cat)"]
+    },
+    "林": {
+        "svg": "0672c.svg",
+        "meaning": "woods, forest",
+        "readings": {
+            "onyomi": ["リン"],
+            "kunyomi": ["はやし"]
+        },
+        "phraseExamples": ["林 (woods)", "林道 (forest path)"]
+    },
+    "竹": {
+        "svg": "07af9.svg",
+        "meaning": "bamboo",
+        "readings": {
+            "onyomi": ["チク"],
+            "kunyomi": ["たけ"]
+        },
+        "phraseExamples": ["竹 (bamboo)", "竹林 (bamboo grove)"]
+    },
+    "草": {
+        "svg": "08384.svg",
+        "meaning": "grass",
+        "readings": {
+            "onyomi": ["ソウ"],
+            "kunyomi": ["くさ"]
+        },
+        "phraseExamples": ["草 (grass)", "草原 (grassland)"]
+    },
+    "石": {
+        "svg": "077f3.svg",
+        "meaning": "stone",
+        "readings": {
+            "onyomi": ["セキ", "シャク"],
+            "kunyomi": ["いし"]
+        },
+        "phraseExamples": ["石 (stone)", "石油 (oil)"]
+    },
+    "目": {
+        "svg": "076ee.svg",
+        "meaning": "eye",
+        "readings": {
+            "onyomi": ["モク"],
+            "kunyomi": ["め"]
+        },
+        "phraseExamples": ["目 (eye)", "目的 (purpose)"]
+    },
+    "耳": {
+        "svg": "08033.svg",
+        "meaning": "ear",
+        "readings": {
+            "onyomi": ["ジ"],
+            "kunyomi": ["みみ"]
+        },
+        "phraseExamples": ["耳 (ear)", "耳元 (close to ear)"]
+    },
+    "手": {
+        "svg": "0624b.svg",
+        "meaning": "hand",
+        "readings": {
+            "onyomi": ["シュ"],
+            "kunyomi": ["て"]
+        },
+        "phraseExamples": ["手 (hand)", "手紙 (letter)"]
+    },
+    "足": {
+        "svg": "08db3.svg",
+        "meaning": "foot, leg",
+        "readings": {
+            "onyomi": ["ソク"],
+            "kunyomi": ["あし", "た"]
+        },
+        "phraseExamples": ["足 (foot)", "足りる (to be enough)"]
+    },
+    "力": {
+        "svg": "052e2.svg",
+        "meaning": "power, strength",
+        "readings": {
+            "onyomi": ["リョク", "リキ"],
+            "kunyomi": ["ちから"]
+        },
+        "phraseExamples": ["力 (strength)", "努力 (effort)"]
+    },
+    "兄": {
+        "svg": "051f6.svg",
+        "meaning": "older brother",
+        "readings": {
+            "onyomi": ["ケイ", "キョウ"],
+            "kunyomi": ["あに"]
+        },
+        "phraseExamples": ["兄 (older brother)", "兄弟 (siblings)"]
+    }
+}
