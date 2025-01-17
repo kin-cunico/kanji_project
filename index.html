@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kin Cunico's Kanji list</title>
-  <script type="module" crossorigin src="/kanji_project/assets/index-OLia24yY.js"></script>
-  <link rel="stylesheet" crossorigin href="/kanji_project/assets/index-Ryfb2FUg.css">
+  <script type="module" crossorigin src="/kanji_project/assets/index-BpVIGojH.js"></script>
+  <link rel="stylesheet" crossorigin href="/kanji_project/assets/index-BLPgr1nn.css">
 </head>
 <body>
     <div id="app-container">
@@ -13,14 +13,25 @@
             <h1>Kanji Flashcards</h1>
         </header>
         <main>
+            <!-- Kanji Animation Container -->
             <div id="kanji-animation-container">
                 <!-- Kanji animation injected here -->
                 <div id="app"></div>
             </div>
+            <!-- Popup for Kanji Table -->
+            <div id="pop-up" class="hidden" aria-hidden="true">
+                <div id="kanji-table">
+                    <h2>Kanji Table</h2>
+                    <ul id="kanji-list"></ul>
+                    <button id="close-popup" aria-label="Close Kanji Table">Close</button>
+                </div>
+            </div>
+            <!-- Controls -->
             <div id="controls">
-                <button id="prev-btn">Previous</button>
-                <button id="replay-btn">Replay</button>
-                <button id="next-btn">Next</button>
+                <button id="choose-btn" aria-label="Open Kanji Table">Table</button>
+                <button id="prev-btn" aria-label="Previous Kanji">Previous</button>
+                <button id="replay-btn" aria-label="Replay Animation">Replay</button>
+                <button id="next-btn" aria-label="Next Kanji">Next</button>
             </div>
         </main>
         <footer>
