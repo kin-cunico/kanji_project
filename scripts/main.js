@@ -1,16 +1,20 @@
 import Flashcard from './flashcard.js';
 
+
+function randomInt(max) {
+    return Math.floor(Math.random() * max)
+}
 // Global variables for kanji data and current index
 let kanjiData = {}; // Key-based data for all kanji
 let kanjiList = []; // List of kanji characters (keys)
-let currentKanjiIndex = 0; // Track the current kanji
+let currentKanjiIndex = randomInt(50); // Track the current kanji
 
 /**
  * Loads the kanji.json file and initializes the kanji data and list.
  */
 async function loadKanjiData() {
     try {
-        const response = await fetch('/data/kanji.json');
+        const response = await fetch('kanji_project/data/kanji.json');
         if (!response.ok) {
             throw new Error('Failed to load kanji.json');
         }
@@ -64,6 +68,90 @@ function replayKanji() {
 }
 
 /**
+ * Handles user interaction through clicks and key presses.
+ */
+function handleEvent(event) {
+    let action;
+
+    // Determine the action based on the event type
+    switch (event.type) {
+        case 'click':
+            if (event.target.id === 'next-btn') action = 'forward';
+            else if (event.target.id === 'prev-btn') action = 'back';
+            else if (event.target.id === 'replay-btn') action = 'select';
+            break;
+        case 'keydown':
+            switch (event.key) {
+                case 'ArrowRight':
+                    action = 'forward';
+                    break;
+                case 'ArrowLeft':
+                    action = 'back';
+                    break;
+                case 'Enter':
+                case 'Return':
+                    action = 'select';
+                    break;
+            }
+            break;
+        default:
+            return;
+    }
+
+    // Perform the action
+    switch (action) {
+        case 'forward':
+            showNextKanji();
+            break;
+        case 'back':
+            showPreviousKanji();
+            break;
+        case 'select':
+            replayKanji();
+            break;
+    }
+}
+
+/**
+ * Displays the Kanji List popup.
+ */
+function showList() {
+    const popup = document.getElementById('pop-up'); // Popup container
+    const kanjiContainer = document.getElementById('kanji-list'); // List container
+
+    // Clear existing list
+    kanjiContainer.innerHTML = '';
+
+    // Populate the Kanji list
+    kanjiList.forEach((kanji, index) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = kanji;
+
+        // Add click listener for each Kanji
+        listItem.addEventListener('click', () => {
+            currentKanjiIndex = index; // Update current index
+            renderFlashcard(); // Render the selected Kanji
+            closeKanjiPopUp(); // Close the popup
+        });
+
+        kanjiContainer.appendChild(listItem);
+    });
+
+    // Show the popup
+    popup.classList.remove('hidden');
+    popup.setAttribute('aria-hidden', 'false'); // Update ARIA visibility
+}
+
+/**
+ * Closes the Kanji List popup.
+ */
+function closeKanjiPopUp() {
+    const popup = document.getElementById('pop-up');
+    popup.classList.add('hidden'); // Hide the popup
+    popup.setAttribute('aria-hidden', 'true'); // Update ARIA visibility
+}
+
+/**
  * Initializes the app and sets up event listeners.
  */
 async function initializeApp() {
@@ -74,10 +162,26 @@ async function initializeApp() {
     }
     renderFlashcard(); // Display the first kanji flashcard
 
-    // Set up navigation buttons
-    document.getElementById('prev-btn').addEventListener('click', showPreviousKanji);
+    // Add event listeners for navigation buttons
     document.getElementById('next-btn').addEventListener('click', showNextKanji);
+    document.getElementById('prev-btn').addEventListener('click', showPreviousKanji);
     document.getElementById('replay-btn').addEventListener('click', replayKanji);
+
+    // Event listener for the "Kanji List" button
+    document.getElementById('choose-btn').addEventListener('click', showList);
+
+    // Event listener for the "Close" button in the popup
+    document.getElementById('close-popup').addEventListener('click', closeKanjiPopUp);
+
+    // Close popup when clicking outside of its content
+    document.getElementById('pop-up').addEventListener('click', (event) => {
+        if (event.target.id === 'pop-up') {
+            closeKanjiPopUp();
+        }
+    });
+
+    // Add global listeners for keyboard navigation
+    document.addEventListener('keydown', handleEvent);
 }
 
 // Initialize the app when the DOM is fully loaded

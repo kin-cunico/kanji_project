@@ -15,6 +15,11 @@ export default class Flashcard {
         kanjiElement.textContent = this.kanji;
         card.appendChild(kanjiElement);
 
+        const kanjiLevel = document.createElement('strong')
+        kanjiLevel.className = 'kanji-level'
+        kanjiLevel.textContent = this.kanjiData.level || "No level specified"
+        card.appendChild(kanjiLevel)
+
         const animationContainer = document.createElement('div');
         animationContainer.className = 'kanji-animation';
         animationContainer.id = `animation-${this.kanji}`;
@@ -59,7 +64,7 @@ export default class Flashcard {
             return;
         }
 
-        const svgPath = `assets/svg/${svgFile}`;
+        const svgPath = `kanji_project/assets/svg/${svgFile}`;
 
         fetch(svgPath)
             .then(response => {
@@ -76,14 +81,12 @@ export default class Flashcard {
                 const paths = Array.from(svgElement.querySelectorAll('path'));
                 const texts = Array.from(svgElement.querySelectorAll('text'));
 
-                // Hide all stroke numbers
-                texts.forEach(text => text.setAttribute('opacity', '0'));
 
                 // Animate the SVG with Vivus.js
                 new Vivus(svgElement, {
                     type: 'oneByOne',
-                    duration: paths.length * 200,
-                    animTimingFunction: Vivus.EASE_IN,
+                    duration: paths.length * 70,
+                    animTimingFunction: Vivus.LINEAR,
                     onProgress: (progress) => {
                         this.updateStrokeNumbers(progress, paths, texts);
                     },
@@ -96,9 +99,5 @@ export default class Flashcard {
                     container.innerHTML = `<p style="color: red;">${error.message}</p>`;
                 }
             });
-    }
-
-    updateStrokeNumbers(progress, paths, texts) {
-        const currentStroke = Math.floor(progress * paths.length);
     }
 }
