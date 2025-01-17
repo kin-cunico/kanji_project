@@ -14,12 +14,12 @@ let currentKanjiIndex = randomInt(50); // Track the current kanji
  */
 async function loadKanjiData() {
     try {
-        const response = await fetch('kanji_project/data/kanji.json');
+        const response = await fetch('data/kanji.json');
         if (!response.ok) {
             throw new Error('Failed to load kanji.json');
         }
         kanjiData = await response.json();
-        kanjiList = Object.keys(kanjiData); // Extract kanji characters (keys)
+        kanjiList = Object.keys(kanjiData);
     } catch (error) {
         console.error('Error loading kanji data:', error);
     }
