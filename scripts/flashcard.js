@@ -64,7 +64,7 @@ export default class Flashcard {
             return;
         }
 
-        const svgPath = `kanji_project/assets/svg/${svgFile}`;
+        const svgPath = `assets/svg/${svgFile}`;
 
         fetch(svgPath)
             .then(response => {
