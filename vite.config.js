@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig ({
-    base: '/kanji_project',
+    base: '/',
     build: {
         assetsInclude: ['**/*.json'],
         outDir: "dist"
